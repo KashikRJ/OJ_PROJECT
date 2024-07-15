@@ -1,0 +1,79 @@
+[
+    {
+        "model": "core.problem",
+        "pk": 1,
+        "fields": {
+            "title": "Sum of N Numbers",
+            "description": "<p>Given an integer N, calculate the sum of first N natural numbers.</p><h3><b>Input</b></h3><p>One integer N on the first line.</p><h3><b>Output</b></h3><p>One integer, the sum of the first N natural numbers.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>6</sup></li></ul><h3><b>Example</b></h3><pre><code>Input<br>5<br>Output<br>15</code></pre>",
+            "difficulty": "Easy",
+            "categories": ["Math"],
+            "time_limit": 2
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 2,
+        "fields": {
+            "title": "Find the Missing Number",
+            "description": "<p>Given an array of size N-1 containing numbers from 1 to N, find the missing number.</p><h3><b>Input</b></h3><p>One integer N on the first line.<br>N-1 integers on the second line.</p><h3><b>Output</b></h3><p>One integer, the missing number.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>5</sup></li></ul><h3><b>Example</b></h3><pre><code>Input<br>5<br>1 2 4 5<br>Output<br>3</code></pre>",
+            "difficulty": "Easy",
+            "categories": ["Array", "Math"],
+            "time_limit": 2
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 3,
+        "fields": {
+            "title": "Longest Increasing Subsequence",
+            "description": "<p>Given an array of integers, find the length of the longest increasing subsequence.</p><h3><b>Input</b></h3><p>One integer N on the first line.<br>N integers on the second line.</p><h3><b>Output</b></h3><p>One integer, the length of the longest increasing subsequence.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>3</sup></li></ul><h3><b>Example</b></h3><pre><code>Input<br>6<br>5 8 3 7 9 1<br>Output<br>3</code></pre>",
+            "difficulty": "Medium",
+            "categories": ["DP", "Array"],
+            "time_limit": 2
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 4,
+        "fields": {
+            "title": "Knapsack Problem",
+            "description": "<p>Given weights and values of N items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.</p><h3><b>Input</b></h3><p>Two integers N and W on the first line.<br>N integers representing weights on the second line.<br>N integers representing values on the third line.</p><h3><b>Output</b></h3><p>One integer, the maximum total value in the knapsack.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>2</sup></li><li>1 ≤ W ≤ 10<sup>4</sup></li></ul><h3><b>Example</b></h3><pre><code>Input<br>3 50<br>10 20 30<br>60 100 120<br>Output<br>220</code></pre>",
+            "difficulty": "Hard",
+            "categories": ["DP", "Greedy"],
+            "time_limit": 3
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 5,
+        "fields": {
+            "title": "Graph Coloring Problem",
+            "description": "<p>Given an undirected graph and a number m, determine if the graph can be colored with at most m colors such that no two adjacent vertices of the graph are colored with the same color.</p><h3><b>Input</b></h3><p>One integer N on the first line.<br>One integer m on the second line.<br>List of edges of the graph.</p><h3><b>Output</b></h3><p>True if the graph can be colored with at most m colors, otherwise False.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>2</sup></li><li>1 ≤ m ≤ 10</li></ul><h3><b>Example</b></h3><pre><code>Input<br>4<br>3<br>1 2<br>2 3<br>3 4<br>4 1<br>Output<br>True</code></pre>",
+            "difficulty": "Hard",
+            "categories": ["Graph", "Backtracking"],
+            "time_limit": 3
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 6,
+        "fields": {
+            "title": "Reverse a Linked List",
+            "description": "<p>Given the head of a singly linked list, reverse the list, and return the reversed list.</p><h3><b>Input</b></h3><p>First line contains the number of nodes N.<br>Second line contains N space-separated integers representing the nodes of the linked list.</p><h3><b>Output</b></h3><p>Return the reversed linked list as space-separated integers.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 1000</li></ul><h3><b>Example</b></h3><pre><code>Input<br>5<br>1 2 3 4 5<br>Output<br>5 4 3 2 1</code></pre>",
+            "difficulty": "Medium",
+            "categories": ["Linked List", "Recursion"],
+            "time_limit": 2
+        }
+    },
+    {
+        "model": "core.problem",
+        "pk": 7,
+        "fields": {
+            "title": "TLE Problem Example",
+            "description": "<p>Given an integer N, print all numbers from 1 to N in separate lines.</p><h3><b>Input</b></h3><p>One integer N on the first line.</p><h3><b>Output</b></h3><p>All numbers from 1 to N in separate lines.</p><h3><b>Constraints</b></h3><ul><li>1 ≤ N ≤ 10<sup>8</sup></li></ul><h3><b>Example</b></h3><pre><code>Input<br>5<br>Output<br>1<br>2<br>3<br>4<br>5</code></pre>",
+            "difficulty": "Medium",
+            "categories": ["I/O"],
+            "time_limit": 2
+        }
+    }
+]

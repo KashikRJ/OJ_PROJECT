@@ -1,0 +1,26 @@
+[
+    {
+        "model": "core.submission",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "problem": 1,
+            "status": "Accepted",
+            "runtime": "500ms",
+            "language": "Python",
+            "timestamp": "2024-07-11T12:34:56Z"
+        }
+    },
+    {
+        "model": "core.submission",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "problem": 2,
+            "status": "Failed at Test Case 1",
+            "runtime": "1200ms",
+            "language": "Java",
+            "timestamp": "2024-07-11T13:20:00Z"
+        }
+    }
+]

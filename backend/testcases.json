@@ -1,0 +1,317 @@
+[
+    {
+        "model": "core.testcase",
+        "pk": 1,
+        "fields": {
+            "problem": 1,
+            "input": "5\n",
+            "expected_output": "15\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 2,
+        "fields": {
+            "problem": 1,
+            "input": "10\n",
+            "expected_output": "55\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 3,
+        "fields": {
+            "problem": 1,
+            "input": "100\n",
+            "expected_output": "5050\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 4,
+        "fields": {
+            "problem": 1,
+            "input": "1000\n",
+            "expected_output": "500500\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 5,
+        "fields": {
+            "problem": 1,
+            "input": "10000\n",
+            "expected_output": "50005000\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 6,
+        "fields": {
+            "problem": 2,
+            "input": "5\n1 2 4 5\n",
+            "expected_output": "3\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 7,
+        "fields": {
+            "problem": 2,
+            "input": "4\n1 3 4\n",
+            "expected_output": "2\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 8,
+        "fields": {
+            "problem": 2,
+            "input": "6\n1 2 3 5 6\n",
+            "expected_output": "4\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 9,
+        "fields": {
+            "problem": 2,
+            "input": "3\n2 3\n",
+            "expected_output": "1\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 10,
+        "fields": {
+            "problem": 2,
+            "input": "7\n1 2 3 4 6 7\n",
+            "expected_output": "5\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 11,
+        "fields": {
+            "problem": 3,
+            "input": "6\n5 8 3 7 9 1\n",
+            "expected_output": "3\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 12,
+        "fields": {
+            "problem": 3,
+            "input": "5\n1 2 3 4 5\n",
+            "expected_output": "5\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 13,
+        "fields": {
+            "problem": 3,
+            "input": "4\n10 22 9 33\n",
+            "expected_output": "3\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 14,
+        "fields": {
+            "problem": 3,
+            "input": "7\n3 10 2 1 20 4 6\n",
+            "expected_output": "4\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 15,
+        "fields": {
+            "problem": 3,
+            "input": "8\n3 4 5 10 6 7 8 9\n",
+            "expected_output": "6\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 16,
+        "fields": {
+            "problem": 4,
+            "input": "3 50\n10 20 30\n60 100 120\n",
+            "expected_output": "220\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 17,
+        "fields": {
+            "problem": 4,
+            "input": "4 10\n1 2 3 8\n1 2 3 8\n",
+            "expected_output": "9\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 18,
+        "fields": {
+            "problem": 4,
+            "input": "5 20\n2 5 10 15 20\n20 30 50 70 90\n",
+            "expected_output": "130\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 19,
+        "fields": {
+            "problem": 4,
+            "input": "3 60\n20 30 40\n60 100 120\n",
+            "expected_output": "220\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 20,
+        "fields": {
+            "problem": 4,
+            "input": "2 100\n10 50\n60 200\n",
+            "expected_output": "260\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 21,
+        "fields": {
+            "problem": 5,
+            "input": "4\n3\n1 2\n2 3\n3 4\n4 1\n",
+            "expected_output": "True\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 22,
+        "fields": {
+            "problem": 5,
+            "input": "5\n2\n1 2\n2 3\n3 4\n4 5\n",
+            "expected_output": "False\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 23,
+        "fields": {
+            "problem": 5,
+            "input": "4\n4\n1 2\n2 3\n3 4\n4 1\n",
+            "expected_output": "True\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 24,
+        "fields": {
+            "problem": 5,
+            "input": "6\n3\n1 2\n2 3\n3 4\n4 5\n5 6\n6 1\n",
+            "expected_output": "False\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 25,
+        "fields": {
+            "problem": 5,
+            "input": "3\n3\n1 2\n2 3\n3 1\n",
+            "expected_output": "True\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 26,
+        "fields": {
+            "problem": 6,
+            "input": "5\n1 2 3 4 5\n",
+            "expected_output": "5 4 3 2 1\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 27,
+        "fields": {
+            "problem": 6,
+            "input": "3\n1 2 3\n",
+            "expected_output": "3 2 1\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 28,
+        "fields": {
+            "problem": 6,
+            "input": "4\n4 3 2 1\n",
+            "expected_output": "1 2 3 4\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 29,
+        "fields": {
+            "problem": 6,
+            "input": "1\n10\n",
+            "expected_output": "10\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 30,
+        "fields": {
+            "problem": 6,
+            "input": "6\n6 5 4 3 2 1\n",
+            "expected_output": "1 2 3 4 5 6\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 31,
+        "fields": {
+            "problem": 7,
+            "input": "5\n",
+            "expected_output": "1\n2\n3\n4\n5\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 32,
+        "fields": {
+            "problem": 7,
+            "input": "10\n",
+            "expected_output": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 33,
+        "fields": {
+            "problem": 7,
+            "input": "100000000\n",
+            "expected_output": "1\n2\n3\n4\n5\n...<snip>...\n100000000\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 34,
+        "fields": {
+            "problem": 7,
+            "input": "50000000\n",
+            "expected_output": "1\n2\n3\n4\n5\n...<snip>...\n50000000\n"
+        }
+    },
+    {
+        "model": "core.testcase",
+        "pk": 35,
+        "fields": {
+            "problem": 7,
+            "input": "10000000\n",
+            "expected_output": "1\n2\n3\n4\n5\n...<snip>...\n10000000\n"
+        }
+    }
+]
