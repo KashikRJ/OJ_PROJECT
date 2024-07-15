@@ -24,7 +24,7 @@ const ThemeSwitcher = () => {
     <div className="absolute top-4 right-4 flex items-center">
       <label className="relative inline-flex items-center mx-2 cursor-pointer">
         <input type="checkbox" checked={darkMode} onChange={toggleTheme} className="sr-only" />
-        <div className="w-11 h-6 bg-gray-200 rounded-full dark:bg-gray-700">
+        <div className="w-11 h-5 bg-gray-200 rounded-full dark:bg-gray-700">
           <div
             className={`w-5 h-5 bg-white rounded-full shadow-md transform transition-transform ${
               darkMode ? 'translate-x-6' : ''

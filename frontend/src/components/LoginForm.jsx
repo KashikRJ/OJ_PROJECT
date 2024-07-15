@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const LoginForm = ({ resetForm }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (resetForm) {
@@ -17,7 +21,7 @@ const LoginForm = ({ resetForm }) => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/login/', {
+      const response = await fetch(`${API_BASE_URL}/login/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,7 +36,8 @@ const LoginForm = ({ resetForm }) => {
         return;
       }
 
-      window.location.href = '/next';
+      localStorage.setItem('user_id', data.user_id);
+      navigate('/dashboard');
     } catch (err) {
       setError('Failed to connect to the server.');
     }
