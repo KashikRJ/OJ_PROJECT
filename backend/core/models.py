@@ -16,7 +16,7 @@ class Problem(models.Model):
     description = models.TextField(null=False)
     difficulty = models.CharField(max_length=50, null=False)
     categories = models.JSONField(null=False)
-    time_limit = models.IntegerField(null=False, default=2)  # Time limit in seconds
+    time_limit = models.IntegerField(null=False, default=2) 
 
     def __str__(self):
         return self.title
